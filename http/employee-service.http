@@ -1,0 +1,31 @@
+### POST
+POST http://localhost:8082/employee
+Content-Type: application/json
+
+{
+  "id": 1,
+  "departmentId": 1,
+  "name": "jeongjin",
+  "age": 31,
+  "position": "IT"
+}
+
+
+### POST
+POST http://localhost:8082/employee
+Content-Type: application/json
+
+{
+"id": 2,
+"departmentId": 2,
+"name": "bori",
+"age": 4,
+"position": "CAT"
+}
+
+### GET
+GET http://localhost:8082/employee/1
+
+
+### GET
+GET http://localhost:8082/employee/department/1

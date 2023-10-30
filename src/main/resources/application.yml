@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: employee-service
+  config:
+    import: "optional:configserver:http://localhost:8088"
+
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  paths-to-match: /**
